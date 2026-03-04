@@ -1,0 +1,69 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "loja loja"
+    "de naosei"
+    "oque oque";
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 400px auto;
+}
+
+
+header{
+    background-color: fuchsia;
+    grid-area: loja;
+}
+
+aside{
+    background-color: brown;
+    grid-area: de;
+
+}
+
+main{
+    background-color: chartreuse;
+    grid-area: naosei;
+}
+
+footer{
+    background-color: rgb(57, 57, 143);
+    grid-area: oque;
+}
+
+@media only screen and (max-width: 450px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "loja loja"
+        "de naosei"
+        "oque oque";
+        grid-template-rows: 100px 500px auto 100px;
+        grid-template-columns: auto;
+    }
+auto{
+    display: none;
+    }
+}
+
+.card{
+    background-color: blue;
+    color: aliceblue;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.pais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: palevioletred 2px solid;
+    background-color: rgb(101, 101, 201);
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
