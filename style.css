@@ -4,13 +4,13 @@ body{
     "loja loja"
     "de naosei"
     "oque oque";
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: auto auto 100px;
     grid-template-columns: 400px auto;
 }
 
 
 header{
-    background-color: rgb(77, 35, 105);
+    background-color: rgb(54, 13, 76);
     grid-area: loja;
     height: auto;
 }
@@ -26,7 +26,7 @@ main{
 }
 
 footer{
-    background-color: rgb(3, 10, 104);
+    background-color: rgb(59, 3, 104);
     grid-area: oque;
 }
 
