@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(34, 0, 73);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: rgb(150, 0, 0) 10px solid;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem_produto{
+    width: 255px;
+}
+
+.d_produto{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.p_produto{
+    color: rgb(38, 0, 255);
+    font-size: 30px;
+}
+
+.botao_produto{
+    font-size: 25px;
+    background-color: rgb(28, 15, 175);
+    width: 50%;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.letra_botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(153, 20, 20);
+
+}
+
+
+.botao_produto{
+    font-size: xx-large;
+}
