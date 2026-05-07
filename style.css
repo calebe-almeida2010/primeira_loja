@@ -13,6 +13,7 @@ header{
     background-color: rgb(54, 13, 76);
     grid-area: loja;
     height: auto;
+    text-align: center;
 }
 
 aside{
